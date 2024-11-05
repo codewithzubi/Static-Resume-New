@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="left-section">
+        <h1 class="name">
+          Zubair <br />
+          <b>Ahmed</b>
+        </h1>
+        <p class="d_p">Web Developer</p>
+        <div class="profile">
+          <img src="assets/img/profilee.jpg" alt="" />
+          <br /><br /><br />
+          <h2>About Me</h2>
+          <p class="about_p">
+            Looking for a chance to explore my skills & educational knowledge in
+            a well reputed firms on reasonable terms & condition where I can
+            learn and utilize my academic knowledge in a practical environment.
+          </p>
+        </div>
+        <br />
+        <p class="p_h"><i class="bx bx-phone-call"></i> +92-3183102960</p>
+        <p class="p_h">
+          <i
+            class="fa fa-envelope-o"
+            aria-hidden="true"
+            style="margin-right: 8px"
+          ></i
+          >zubairahmed12@gmail.com
+        </p>
+        <p class="p_h">
+          <i class="bx bx-current-location"></i> Pakista Sindh,Sanghar
+        </p>
+        <br /><br />
+        <h2>Languages</h2>
+        <br />
+        <p class="l_p">
+          English
+          <span class="circle1"></span>
+          <span class="circle2"></span>
+          <span class="circle3"></span>
+          <span
+            class="circle4"
+            style="background: transparent; border: 1px solid white"
+          ></span>
+          <span
+            class="circle5"
+            style="background: transparent; border: 1px solid white"
+          ></span>
+        </p>
+
+        <p class="l_p">
+          Urdu
+          <span class="circle1"></span>
+          <span class="circle2"></span>
+          <span class="circle3"></span>
+          <span class="circle4"></span>
+          <span class="circle5"></span>
+        </p>
+
+        <p class="l_p">
+          Sindhi
+          <span class="circle1"></span>
+          <span class="circle2"></span>
+          <span class="circle3"></span>
+          <span class="circle4"></span>
+          <span class="circle5"></span>
+        </p>
+      </div>
+
+      <div class="right-section">
+        <div class="content">
+          <h3>Education</h3>
+          <button
+            onclick="toggleSection('education-section')"
+            class="toggle-btn"
+          >
+            Show/Hide Education
+          </button>
+          <div class="conent-inner" id="education-section">
+            <h4>Bachelor of Commerce(B.COM)</h4>
+            <p class="para">BISE SBA @ Nawabshah</p>
+
+            <br />
+            <h4>HSC"A” Grade</h4>
+            <p class="para">BISE SBA @ Nawabshah (2021)</p>
+            <br />
+            <h4>SSC"A" Grade</h4>
+            <p class="para">BISE @ Mirpurkhas (2019)</p>
+          </div>
+
+          <br />
+          <h3>Experience</h3>
+          <button
+            onclick="toggleSection('experience-section')"
+            class="toggle-btn"
+          >
+            Show/Hide Experience
+          </button>
+          <div class="content-inner" id="experience-section">
+            <!-- <h4>Matricalution</h4> -->
+            <p class="para">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero
+              voluptatibus explicabo cum fuga esse consectetur officiis
+              exercitationem
+            </p>
+            <br />
+            <!-- <h4>FSC in Pre-Engineering</h4> -->
+            <p class="para">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero
+              voluptatibus explicabo cum fuga esse consectetur officiis
+              exercitationem
+            </p>
+          </div>
+
+          <h3>My Skills</h3>
+          <button onclick="toggleSection('skills-section')" class="toggle-btn">
+            Show/Hide Skills
+          </button>
+
+          <div class="skills-container" id="skills-section">
+            <div class="skill">
+              <span>HTML</span>
+              <div class="progress">
+                <div class="progress-bar" style="width: 80%"></div>
+              </div>
+              <span class="percentage">80%</span>
+            </div>
+
+            <div class="skill">
+              <span>CSS</span>
+              <div class="progress">
+                <div class="progress-bar" style="width: 70%"></div>
+              </div>
+              <span class="percentage">70%</span>
+            </div>
+            <div class="skill">
+              <span>TypeScript</span>
+              <div class="progress">
+                <div class="progress-bar" style="width: 90%"></div>
+              </div>
+              <span class="percentage">90%</span>
+            </div>
+            <div class="skill">
+              <span>JS</span>
+              <div class="progress">
+                <div class="progress-bar" style="width: 60%"></div>
+              </div>
+              <span class="percentage">60%</span>
+            </div>
+          </div>
+
+          <div class="clearfix"></div>
+          <br />
+          <h3>Hobbies</h3>
+          <button onclick="toggleSection('hobbies-section')" class="toggle-btn">
+            Show/Hide Hobbies
+          </button>
+
+          <div class="conent-inner" id="hobbies-section">
+            <br />
+            <div class="h_box">
+              <i
+                class="fa fa-coffee"
+                aria-hidden="true"
+                style="font-size: 40px; color: blueviolet"
+              ></i>
+              <p style="font-size: 20px">Coffee</p>
+            </div>
+
+            <div class="h_box">
+              <i
+                class="fa fa-subway"
+                aria-hidden="true"
+                style="font-size: 40px; color: blueviolet"
+              ></i>
+              <p style="font-size: 20px">Travelling</p>
+            </div>
+
+            <div class="h_box">
+              <i
+                class="fa fa-gamepad"
+                aria-hidden="true"
+                style="font-size: 40px; color: blueviolet"
+              ></i>
+              <p style="font-size: 20px">Gaming</p>
+            </div>
+
+            <div class="h_box">
+              <i
+                class="fa fa-code"
+                aria-hidden="true"
+                style="font-size: 40px; color: blueviolet"
+              ></i>
+              <p style="font-size: 20px">Coding</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
